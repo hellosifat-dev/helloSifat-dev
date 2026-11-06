@@ -63,8 +63,7 @@ I'm a self-taught software developer. I build apps, explore AI, and run the syst
 
 ### ✳ Activity
 
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=hellosifat-dev&show_icons=true&count_private=true&include_all_commits=true&hide_border=false&bg_color=F6F4EE&title_color=252621&text_color=66675F&icon_color=C34424&border_color=D9D9CF&border_radius=12" alt="GitHub stats"/>
+<p align="center">
   <img height="165" src="https://streak-stats.demolab.com?user=hellosifat-dev&background=F6F4EE&border=D9D9CF&stroke=D9D9CF&ring=C34424&fire=C34424&currStreakNum=252621&sideNums=252621&currStreakLabel=C34424&sideLabels=66675F&dates=66675F&border_radius=12" alt="Contribution streak"/>
 </p>
 
