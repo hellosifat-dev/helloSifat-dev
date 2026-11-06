@@ -66,7 +66,3 @@ I'm a self-taught software developer. I build apps, explore AI, and run the syst
 <p align="center">
   <img height="165" src="https://streak-stats.demolab.com?user=hellosifat-dev&background=F6F4EE&border=D9D9CF&stroke=D9D9CF&ring=C34424&fire=C34424&currStreakNum=252621&sideNums=252621&currStreakLabel=C34424&sideLabels=66675F&dates=66675F&border_radius=12" alt="Contribution streak"/>
 </p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/hellosifat-dev/hellosifat-dev/output/github-snake.svg" alt="Contribution snake" width="100%"/>
-</p>
