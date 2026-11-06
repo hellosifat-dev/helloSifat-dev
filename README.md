@@ -26,28 +26,13 @@ Most of my code is private for now, but I'm happy to show you around. If somethi
 
 ### ✳ What I'm building
 
+<a href="https://www.syncaura.site/"><img src="./assets/syncaura/card.svg" alt="SyncAura — Chat, work and discover in one app. Visit syncaura.site" width="100%"/></a>
+
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://www.syncaura.site/"><img src="./assets/syncaura/feature-graphic-1024x500.png" alt="SyncAura — Chats, calls and your work, all in one app" width="100%"/></a><br/>
-      <b><a href="https://www.syncaura.site/">SyncAura</a></b> &nbsp;<sub><code>CHAT · WORK · DISCOVER</code></sub><br/>
-      Chats, calls and your work, all in one app. Message friends, plan your day and find your people, without switching apps.<br/>
-      <sub>React Native · Expo · Node.js · Socket.IO</sub><br/>
-      <a href="https://www.syncaura.site/">syncaura.site ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <b>SI-Agent</b> &nbsp;<sub><code>PERSONAL AI</code></sub><br/>
-      My own AI assistant. It runs on my computer and understands both Bangla and English.<br/>
-      <sub>Python</sub>
-      <br/><br/>
-      <b>Sifat.cloud</b> &nbsp;<sub><code>SELF-HOSTED</code></sub><br/>
-      My own little cloud. I use it to put my projects online and keep an eye on them.<br/>
-      <sub>TypeScript · Docker · Linux</sub>
-      <br/><br/>
-      <b>CogNova 3.0</b> &nbsp;<sub><code>AI RESEARCH</code></sub><br/>
-      Me learning how AI language models are made, starting from the data up.<br/>
-      <sub>Python</sub>
-    </td>
+    <td width="33%" valign="top"><b>SI-Agent</b><br/><sub>My own AI assistant, in Bangla &amp; English.</sub></td>
+    <td width="33%" valign="top"><b>Sifat.cloud</b><br/><sub>My self-hosted cloud for my projects.</sub></td>
+    <td width="33%" valign="top"><b>CogNova 3.0</b><br/><sub>Learning how AI models are built.</sub></td>
   </tr>
 </table>
 
