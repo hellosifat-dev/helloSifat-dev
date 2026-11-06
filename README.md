@@ -26,46 +26,25 @@ Most of my code is private for now, but I'm happy to show you around. If somethi
 
 ### ✳ What I'm building
 
-#### SyncAura &nbsp;<sub><code>CHAT · WORK · DISCOVER</code></sub>
-
-Chats, calls and your work, all in one app. You can message friends, plan your day with to-dos, notes and a calendar, and find people and communities, without jumping between five different apps.
-
-<p align="center">
-  <img src="./assets/syncaura/feature-graphic-1024x500.png" alt="SyncAura — Chats, calls and your work, all in one app" width="100%"/>
-</p>
-
-<p align="center">
-  <img src="./assets/syncaura/02-workspace-today-1080x1920.png" alt="Your day at a glance" width="23%"/>
-  &nbsp;
-  <img src="./assets/syncaura/05-workspace-notes-1080x1920.png" alt="Capture every idea" width="23%"/>
-  &nbsp;
-  <img src="./assets/syncaura/07-discover-feed-1080x1920.png" alt="Discover your people" width="23%"/>
-  &nbsp;
-  <img src="./assets/syncaura/08-profile-1080x1920.png" alt="Your profile, your rules" width="23%"/>
-</p>
-
-<p align="center"><sub>React Native · Expo · Node.js · Socket.IO</sub></p>
-
-#### Other things I'm working on
-
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <b>SI-Agent</b><br/>
-      <sub><code>PERSONAL AI</code></sub><br/><br/>
-      My own AI assistant. It runs on my computer and understands both Bangla and English.<br/><br/>
+    <td width="50%" valign="top">
+      <img src="./assets/syncaura/feature-graphic-1024x500.png" alt="SyncAura — Chats, calls and your work, all in one app" width="100%"/><br/>
+      <b>SyncAura</b> &nbsp;<sub><code>CHAT · WORK · DISCOVER</code></sub><br/>
+      Chats, calls and your work, all in one app. Message friends, plan your day and find your people, without switching apps.<br/>
+      <sub>React Native · Expo · Node.js · Socket.IO</sub>
+    </td>
+    <td width="50%" valign="top">
+      <b>SI-Agent</b> &nbsp;<sub><code>PERSONAL AI</code></sub><br/>
+      My own AI assistant. It runs on my computer and understands both Bangla and English.<br/>
       <sub>Python</sub>
-    </td>
-    <td width="33%" valign="top">
-      <b>Sifat.cloud</b><br/>
-      <sub><code>SELF-HOSTED</code></sub><br/><br/>
-      My own little cloud. I use it to put my projects online and keep an eye on them.<br/><br/>
+      <br/><br/>
+      <b>Sifat.cloud</b> &nbsp;<sub><code>SELF-HOSTED</code></sub><br/>
+      My own little cloud. I use it to put my projects online and keep an eye on them.<br/>
       <sub>TypeScript · Docker · Linux</sub>
-    </td>
-    <td width="33%" valign="top">
-      <b>CogNova 3.0</b><br/>
-      <sub><code>AI RESEARCH</code></sub><br/><br/>
-      Me learning how AI language models are made, starting from the data up.<br/><br/>
+      <br/><br/>
+      <b>CogNova 3.0</b> &nbsp;<sub><code>AI RESEARCH</code></sub><br/>
+      Me learning how AI language models are made, starting from the data up.<br/>
       <sub>Python</sub>
     </td>
   </tr>
