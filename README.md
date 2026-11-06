@@ -29,10 +29,11 @@ Most of my code is private for now, but I'm happy to show you around. If somethi
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="./assets/syncaura/feature-graphic-1024x500.png" alt="SyncAura — Chats, calls and your work, all in one app" width="100%"/><br/>
-      <b>SyncAura</b> &nbsp;<sub><code>CHAT · WORK · DISCOVER</code></sub><br/>
+      <a href="https://www.syncaura.site/"><img src="./assets/syncaura/feature-graphic-1024x500.png" alt="SyncAura — Chats, calls and your work, all in one app" width="100%"/></a><br/>
+      <b><a href="https://www.syncaura.site/">SyncAura</a></b> &nbsp;<sub><code>CHAT · WORK · DISCOVER</code></sub><br/>
       Chats, calls and your work, all in one app. Message friends, plan your day and find your people, without switching apps.<br/>
-      <sub>React Native · Expo · Node.js · Socket.IO</sub>
+      <sub>React Native · Expo · Node.js · Socket.IO</sub><br/>
+      <a href="https://www.syncaura.site/">syncaura.site ↗</a>
     </td>
     <td width="50%" valign="top">
       <b>SI-Agent</b> &nbsp;<sub><code>PERSONAL AI</code></sub><br/>
