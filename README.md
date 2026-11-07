@@ -26,13 +26,15 @@ Most of my code is private for now, but I'm happy to show you around. If somethi
 
 ### ✳ What I'm building
 
-<a href="https://www.syncaura.site/"><img src="./assets/syncaura/card.svg" alt="SyncAura — Chat, work and discover in one app. Visit syncaura.site" width="100%"/></a>
+<p>
+  <a href="https://www.syncaura.site/"><img src="./assets/syncaura/card.svg" alt="SyncAura — Chat, work and discover in one app. Visit syncaura.site" width="49%"/></a>
+  <a href="https://sifat.cloud/"><img src="./assets/sifatcloud/card.svg" alt="Sifat.cloud — A home for everything you build. Visit sifat.cloud" width="49%"/></a>
+</p>
 
 <table>
   <tr>
-    <td width="33%" valign="top"><b>SI-Agent</b><br/><sub>My own AI assistant, in Bangla &amp; English.</sub></td>
-    <td width="33%" valign="top"><b>Sifat.cloud</b><br/><sub>My self-hosted cloud for my projects.</sub></td>
-    <td width="33%" valign="top"><b>CogNova 3.0</b><br/><sub>Learning how AI models are built.</sub></td>
+    <td width="50%" valign="top"><b>SI-Agent</b><br/><sub>My own AI assistant, in Bangla &amp; English.</sub></td>
+    <td width="50%" valign="top"><b>CogNova 3.0</b><br/><sub>Learning how AI models are built.</sub></td>
   </tr>
 </table>
 
