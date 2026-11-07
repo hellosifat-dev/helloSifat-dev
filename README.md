@@ -29,12 +29,12 @@ Most of my code is private for now, but I'm happy to show you around. If somethi
 <p>
   <a href="https://www.syncaura.site/"><img src="./assets/syncaura/card.svg" alt="SyncAura — Chat, work and discover in one app. Visit syncaura.site" width="49%"/></a>
   <a href="https://sifat.cloud/"><img src="./assets/sifatcloud/card.svg" alt="Sifat.cloud — A home for everything you build. Visit sifat.cloud" width="49%"/></a>
+  <img src="./assets/cognova/card.svg" alt="CogNova 3.0 — Building a language model from scratch. Early research log." width="49%"/>
 </p>
 
 <table>
   <tr>
-    <td width="50%" valign="top"><b>SI-Agent</b><br/><sub>My own AI assistant, in Bangla &amp; English.</sub></td>
-    <td width="50%" valign="top"><b>CogNova 3.0</b><br/><sub>Learning how AI models are built.</sub></td>
+    <td valign="top"><b>SI-Agent</b><br/><sub>My own AI assistant, in Bangla &amp; English.</sub></td>
   </tr>
 </table>
 
