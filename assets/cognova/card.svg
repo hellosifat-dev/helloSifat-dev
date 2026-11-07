@@ -1,68 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="CogNova 3.0 — Building a language model from scratch. Early research log.">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="CogNova 3.0 — Building a language model from scratch. Early research log: 1.33M parameters now, 16.9M planned next.">
   <style>
     .sans { font-family: Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
     .mono { font-family: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; }
-    .ink { fill: #1F2233; } .muted { fill: #676B7E; } .acc { fill: #3B4FA8; } .warm { fill: #C34424; }
+    .ink { fill: #1F2233; } .muted { fill: #6A6E80; } .acc { fill: #3B4FA8; } .warm { fill: #C34424; }
     .fade { animation: fade .8s ease-out both; }
     .d1 { animation-delay: .1s } .d2 { animation-delay: .25s } .d3 { animation-delay: .4s } .d4 { animation-delay: .55s }
     .pa { animation: up 1s .3s cubic-bezier(.2,.7,.2,1) both; }
-    .fa { animation: bob 6s 1.4s ease-in-out infinite; }
-    .line { stroke-dasharray: 600; animation: draw 2.2s .8s ease-out both; }
-    .area { animation: fadeIn 1s 2.4s ease-out both; }
-    .end { animation: fadeIn .5s 2.9s ease-out both; }
+    .fa { animation: bob 7s 1.6s ease-in-out infinite; }
+    .line { stroke-dasharray: 700; animation: draw 2.4s .8s ease-out both; }
+    .area { animation: fadeIn 1s 2.6s ease-out both; }
+    .end { animation: fadeIn .6s 3s ease-out both; }
     .live { animation: pulse 2.4s ease-in-out infinite; }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
     @keyframes fade { from { opacity: 0; transform: translateY(6px) } to { opacity: 1; transform: none } }
     @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
     @keyframes up { from { opacity: 0; transform: translateY(16px) } to { opacity: 1; transform: none } }
-    @keyframes bob { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-5px) } }
-    @keyframes draw { from { stroke-dashoffset: 600 } to { stroke-dashoffset: 0 } }
+    @keyframes bob { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-4px) } }
+    @keyframes draw { from { stroke-dashoffset: 700 } to { stroke-dashoffset: 0 } }
     @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .3 } }
   </style>
   <defs>
     <clipPath id="card"><rect width="600" height="300" rx="16"/></clipPath>
     <radialGradient id="glow" cx="80%" cy="40%" r="60%">
-      <stop offset="0" stop-color="#3B4FA8" stop-opacity=".11"/>
-      <stop offset="1" stop-color="#F4F4F1" stop-opacity="0"/>
+      <stop offset="0" stop-color="#3B4FA8" stop-opacity=".11"/><stop offset="1" stop-color="#F4F4F1" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#3B4FA8" stop-opacity=".18"/><stop offset="1" stop-color="#3B4FA8" stop-opacity="0"/>
+      <stop offset="0" stop-color="#3B4FA8" stop-opacity=".2"/><stop offset="1" stop-color="#3B4FA8" stop-opacity="0"/>
     </linearGradient>
     <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#1F2233" stroke-opacity=".045"/></pattern>
-    <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#1F2233" flood-opacity=".14"/>
-    </filter>
+    <filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#1F2233" flood-opacity=".14"/></filter>
   </defs>
   <g clip-path="url(#card)">
     <rect width="600" height="300" fill="#F4F4F1"/>
     <rect width="600" height="300" fill="url(#grid)"/>
     <rect width="600" height="300" fill="url(#glow)"/>
     <g class="fade d1">
-      <rect x="34" y="30" width="34" height="34" rx="8" fill="#3B4FA8"/>
+      <rect x="34" y="28" width="34" height="34" rx="8" fill="#3B4FA8"/>
       <g fill="#F4F4F1" stroke="#F4F4F1" stroke-width="1.4">
-        <path d="M43 40L51 47L59 40M43 54L51 47L59 54" fill="none"/>
-        <circle cx="43" cy="40" r="2.4"/><circle cx="59" cy="40" r="2.4"/><circle cx="43" cy="54" r="2.4"/><circle cx="59" cy="54" r="2.4"/><circle cx="51" cy="47" r="3"/>
+        <path d="M43 38L51 45L59 38M43 52L51 45L59 52" fill="none"/>
+        <circle cx="43" cy="38" r="2.4"/><circle cx="59" cy="38" r="2.4"/><circle cx="43" cy="52" r="2.4"/><circle cx="59" cy="52" r="2.4"/><circle cx="51" cy="45" r="3"/>
       </g>
-      <text x="78" y="54" class="sans ink" font-size="21" font-weight="700" letter-spacing="-.3">CogNova <tspan class="acc">3.0</tspan></text>
+      <text x="78" y="52" class="sans ink" font-size="21" font-weight="700" letter-spacing="-.3">CogNova <tspan class="acc">3.0</tspan></text>
     </g>
-    <text x="34" y="96" class="mono warm fade d2" font-size="11" letter-spacing="1.6">✳  RESEARCH LOG · EARLY DAYS</text>
-    <text x="32" y="138" class="sans ink fade d2" font-size="33" font-weight="600" letter-spacing="-1">Building a</text>
-    <text x="32" y="177" class="sans ink fade d3" font-size="33" font-weight="600" letter-spacing="-1">language model</text>
-    <text x="32" y="216" class="sans fade d3 acc" font-size="33" font-weight="600" letter-spacing="-1">from scratch.</text>
-    <g class="fade d4"><rect x="34" y="232" width="38" height="24" rx="12" fill="#3B4FA8" fill-opacity=".09"/><text x="53" y="248.5" class="mono acc" font-size="10.5" font-weight="600" text-anchor="middle">D1 ✓</text></g><g class="fade d4"><rect x="77" y="232" width="38" height="24" rx="12" fill="#3B4FA8" fill-opacity=".09"/><text x="96" y="248.5" class="mono acc" font-size="10.5" font-weight="600" text-anchor="middle">C0 ✓</text></g><g class="fade d4"><rect x="120" y="232" width="38" height="24" rx="12" fill="#3B4FA8" fill-opacity=".09"/><text x="139" y="248.5" class="mono acc" font-size="10.5" font-weight="600" text-anchor="middle">T0 ✓</text></g><g class="fade d4"><rect x="163" y="232" width="38" height="24" rx="12" fill="#3B4FA8" fill-opacity=".09"/><text x="182" y="248.5" class="mono acc" font-size="10.5" font-weight="600" text-anchor="middle">R2 ✓</text></g><g class="fade d4"><rect x="206" y="232" width="38" height="24" rx="12" fill="#3B4FA8" fill-opacity=".09"/><text x="225" y="248.5" class="mono acc" font-size="10.5" font-weight="600" text-anchor="middle">W1 ✓</text></g><g class="fade d4"><rect x="249" y="232" width="66" height="24" rx="12" fill="none" stroke="#3B4FA8" stroke-dasharray="3 3"/><circle class="live" cx="261" cy="244" r="3.5" fill="#C34424"/><text x="288" y="248.5" class="mono acc" font-size="10.5" font-weight="600" text-anchor="middle">W2 now</text></g>
+    <text x="34" y="90" class="mono warm fade d2" font-size="11" letter-spacing="1.5">✳  RESEARCH LOG · IN TRAINING</text>
+    <text x="32" y="124" class="sans ink fade d2" font-size="29" font-weight="600" letter-spacing="-.9">Building a language</text>
+    <text x="32" y="158" class="sans fade d3" font-size="29" font-weight="600" letter-spacing="-.9"><tspan class="ink">model</tspan><tspan class="acc" dx="8">from scratch.</tspan></text>
+    <text x="34" y="190" class="sans fade d3" font-size="13"><tspan class="acc" font-weight="700">1.33M</tspan><tspan class="muted" dx="4">params now</tspan><tspan class="muted" dx="8">→</tspan><tspan class="ink" font-weight="700" dx="8">16.9M</tspan><tspan class="muted" dx="4">planned next</tspan></text>
+    <g class="fade d4"><rect x="34" y="208" width="84" height="24" rx="12" fill="#3B4FA8" fill-opacity=".09"/><text x="76" y="224" class="sans acc" font-size="11.5" font-weight="600" text-anchor="middle">Tokenizer ✓</text></g><g class="fade d4"><rect x="124" y="208" width="84" height="24" rx="12" fill="#3B4FA8" fill-opacity=".09"/><text x="166" y="224" class="sans acc" font-size="11.5" font-weight="600" text-anchor="middle">Model ✓</text></g><g class="fade d4"><rect x="214" y="208" width="84" height="24" rx="12" fill="#3B4FA8" fill-opacity=".09"/><text x="256" y="224" class="sans acc" font-size="11.5" font-weight="600" text-anchor="middle">Training ✓</text></g><g class="fade d4"><rect x="34" y="238" width="84" height="24" rx="12" fill="#3B4FA8" fill-opacity=".09"/><text x="76" y="254" class="sans acc" font-size="11.5" font-weight="600" text-anchor="middle">Recovery ✓</text></g><g class="fade d4"><rect x="124" y="238" width="84" height="24" rx="12" fill="#3B4FA8" fill-opacity=".09"/><text x="166" y="254" class="sans acc" font-size="11.5" font-weight="600" text-anchor="middle">Wiki audit ✓</text></g><g class="fade d4"><rect x="214" y="238" width="84" height="24" rx="12" fill="#FFFFFF" stroke="#C34424" stroke-opacity=".6" stroke-dasharray="3 3"/><circle class="live" cx="227" cy="250" r="3.5" fill="#C34424"/><text x="262" y="254" class="sans warm" font-size="11.5" font-weight="600" text-anchor="middle">Cleaning</text></g>
+    <text x="34" y="284" class="mono muted fade d4" font-size="10">4 layers · 4 heads · 128-dim · Bangla · English · code</text>
     <g class="pa"><g class="fa" filter="url(#sh)">
-      <rect x="336" y="40" width="240" height="222" rx="14" fill="#FFFFFF" stroke="#E3E3DE"/>
-      <text x="352" y="66" class="sans ink" font-size="12.5" font-weight="600">Training loss</text>
-      <text x="560" y="66" class="mono muted" font-size="9.5" text-anchor="end">RTX 3050 laptop</text>
-      <text x="352" y="88" class="mono" font-size="15" font-weight="600"><tspan class="muted">6.31</tspan><tspan class="muted" font-size="12">  →  </tspan><tspan class="acc">2.28</tspan></text>
-      <line x1="354" y1="186" x2="558" y2="186" stroke="#E3E3DE"/>
-      <line x1="354" y1="144.0" x2="558" y2="144.0" stroke="#EFEFEA" stroke-dasharray="2 3"/>
-      <path class="area" d="M354.0,186 L354.0,105.1 L355.7,105.3 L357.4,105.3 L359.1,106.0 L360.9,107.5 L362.6,107.4 L364.3,108.5 L366.0,109.2 L367.7,109.8 L369.4,110.5 L371.1,111.9 L372.9,112.3 L374.6,113.5 L376.3,113.9 L378.0,114.9 L379.7,116.0 L381.4,116.5 L383.1,117.6 L384.9,118.8 L386.6,120.4 L388.3,121.2 L390.0,122.8 L391.7,123.4 L393.4,124.0 L395.1,125.8 L396.9,126.5 L398.6,127.4 L400.3,129.0 L402.0,129.8 L403.7,129.8 L405.4,131.8 L407.1,131.9 L408.9,133.1 L410.6,134.2 L412.3,135.7 L414.0,134.6 L415.7,137.0 L417.4,136.8 L419.1,138.1 L420.9,138.6 L422.6,140.3 L424.3,140.3 L426.0,141.8 L427.7,142.0 L429.4,142.7 L431.1,144.2 L432.9,144.1 L434.6,145.9 L436.3,146.3 L438.0,148.1 L439.7,146.9 L441.4,148.8 L443.1,148.8 L444.9,149.6 L446.6,150.5 L448.3,151.3 L450.0,152.4 L451.7,153.0 L453.4,153.4 L455.1,153.4 L456.9,155.1 L458.6,155.1 L460.3,155.1 L462.0,156.7 L463.7,157.3 L465.4,156.9 L467.1,158.2 L468.9,159.3 L470.6,158.6 L472.3,159.8 L474.0,159.8 L475.7,160.9 L477.4,161.4 L479.1,161.3 L480.9,162.3 L482.6,161.8 L484.3,164.0 L486.0,163.6 L487.7,164.2 L489.4,164.2 L491.1,164.5 L492.9,165.1 L494.6,165.1 L496.3,166.1 L498.0,166.9 L499.7,167.2 L501.4,165.7 L503.1,166.7 L504.9,167.8 L506.6,167.8 L508.3,168.4 L510.0,167.6 L511.7,168.7 L513.4,168.8 L515.1,169.0 L516.9,169.1 L518.6,169.8 L520.3,168.8 L522.0,170.4 L523.7,170.1 L525.4,169.5 L527.1,171.0 L528.9,170.4 L530.6,170.2 L532.3,171.6 L534.0,170.6 L535.7,171.2 L537.4,171.8 L539.1,171.6 L540.9,171.9 L542.6,171.4 L544.3,171.5 L546.0,172.0 L547.7,172.4 L549.4,171.9 L551.1,172.2 L552.9,172.8 L554.6,173.4 L556.3,172.7 L558.0,172.0 L558.0,186 Z" fill="url(#fill)"/>
-      <polyline class="line" points="354.0,105.1 355.7,105.3 357.4,105.3 359.1,106.0 360.9,107.5 362.6,107.4 364.3,108.5 366.0,109.2 367.7,109.8 369.4,110.5 371.1,111.9 372.9,112.3 374.6,113.5 376.3,113.9 378.0,114.9 379.7,116.0 381.4,116.5 383.1,117.6 384.9,118.8 386.6,120.4 388.3,121.2 390.0,122.8 391.7,123.4 393.4,124.0 395.1,125.8 396.9,126.5 398.6,127.4 400.3,129.0 402.0,129.8 403.7,129.8 405.4,131.8 407.1,131.9 408.9,133.1 410.6,134.2 412.3,135.7 414.0,134.6 415.7,137.0 417.4,136.8 419.1,138.1 420.9,138.6 422.6,140.3 424.3,140.3 426.0,141.8 427.7,142.0 429.4,142.7 431.1,144.2 432.9,144.1 434.6,145.9 436.3,146.3 438.0,148.1 439.7,146.9 441.4,148.8 443.1,148.8 444.9,149.6 446.6,150.5 448.3,151.3 450.0,152.4 451.7,153.0 453.4,153.4 455.1,153.4 456.9,155.1 458.6,155.1 460.3,155.1 462.0,156.7 463.7,157.3 465.4,156.9 467.1,158.2 468.9,159.3 470.6,158.6 472.3,159.8 474.0,159.8 475.7,160.9 477.4,161.4 479.1,161.3 480.9,162.3 482.6,161.8 484.3,164.0 486.0,163.6 487.7,164.2 489.4,164.2 491.1,164.5 492.9,165.1 494.6,165.1 496.3,166.1 498.0,166.9 499.7,167.2 501.4,165.7 503.1,166.7 504.9,167.8 506.6,167.8 508.3,168.4 510.0,167.6 511.7,168.7 513.4,168.8 515.1,169.0 516.9,169.1 518.6,169.8 520.3,168.8 522.0,170.4 523.7,170.1 525.4,169.5 527.1,171.0 528.9,170.4 530.6,170.2 532.3,171.6 534.0,170.6 535.7,171.2 537.4,171.8 539.1,171.6 540.9,171.9 542.6,171.4 544.3,171.5 546.0,172.0 547.7,172.4 549.4,171.9 551.1,172.2 552.9,172.8 554.6,173.4 556.3,172.7 558.0,172.0" fill="none" stroke="#3B4FA8" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
-      <g class="end"><circle cx="558.0" cy="172.0" r="7" fill="#3B4FA8" fill-opacity=".15"/><circle cx="558.0" cy="172.0" r="3" fill="#3B4FA8"/></g>
-      <text x="354" y="200" class="mono muted" font-size="8.5">120 steps · tiny synthetic dataset</text>
-      <line x1="336" y1="206" x2="576" y2="206" stroke="#EDEDE8"/>
-      <text x="352" y="226" class="sans ink" font-size="13.5" font-weight="700">1.33M</text><text x="352" y="242" class="sans muted" font-size="9.5">parameters</text><text x="428" y="226" class="sans ink" font-size="13.5" font-weight="700">85</text><text x="428" y="242" class="sans muted" font-size="9.5">tests passing</text><text x="504" y="226" class="sans ink" font-size="13.5" font-weight="700">Δ 0</text><text x="504" y="242" class="sans muted" font-size="9.5">replay diff</text>
+      <rect x="326" y="24" width="252" height="252" rx="14" fill="#FFFFFF" stroke="#E3E3DE"/>
+      <text x="342" y="48" class="sans ink" font-size="12.5" font-weight="600">Training loss</text>
+      <text x="562" y="48" class="mono muted" font-size="9.5" text-anchor="end">first run · RTX 3050</text>
+      <text x="342" y="72" class="mono" font-size="16" font-weight="600"><tspan class="muted">6.31</tspan><tspan class="muted" dx="6" font-size="13">→</tspan><tspan class="acc" dx="6">2.28</tspan></text>
+      <text x="562" y="72" class="sans" font-size="10.5" text-anchor="end" fill="#3E8E5A" font-weight="600">↓ 64% lower</text>
+      <rect x="366.0" y="82" width="32.7" height="110" fill="#C34424" fill-opacity=".06"/><text x="382.3" y="90" class="mono warm" font-size="8.5" text-anchor="middle">warmup</text>
+      <line x1="366" y1="98.4" x2="562" y2="98.4" stroke="#EEEEE9"/><text x="358" y="101.9" class="mono muted" font-size="10" text-anchor="end">6</text><line x1="366" y1="140.0" x2="562" y2="140.0" stroke="#EEEEE9"/><text x="358" y="143.5" class="mono muted" font-size="10" text-anchor="end">4</text><line x1="366" y1="181.6" x2="562" y2="181.6" stroke="#EEEEE9"/><text x="358" y="185.1" class="mono muted" font-size="10" text-anchor="end">2</text><text x="366.0" y="207" class="mono muted" font-size="10" text-anchor="middle">0</text><text x="464.0" y="207" class="mono muted" font-size="10" text-anchor="middle">60</text><text x="562.0" y="207" class="mono muted" font-size="10" text-anchor="middle">120</text>
+      <line x1="366" y1="192" x2="562" y2="192" stroke="#D9D9D3"/>
+      <path class="area" d="M367.6,192 L367.6,91.9 L369.3,92.1 L370.9,92.1 L372.5,93.0 L374.2,94.9 L375.8,94.7 L377.4,96.0 L379.1,96.9 L380.7,97.7 L382.3,98.6 L384.0,100.3 L385.6,100.8 L387.2,102.3 L388.9,102.7 L390.5,104.0 L392.1,105.4 L393.8,106.0 L395.4,107.4 L397.0,108.8 L398.7,110.7 L400.3,111.8 L401.9,113.8 L403.6,114.5 L405.2,115.3 L406.8,117.5 L408.5,118.3 L410.1,119.5 L411.7,121.4 L413.4,122.4 L415.0,122.4 L416.6,124.9 L418.3,125.0 L419.9,126.5 L421.5,127.8 L423.2,129.7 L424.8,128.4 L426.4,131.3 L428.1,131.1 L429.7,132.7 L431.3,133.3 L433.0,135.5 L434.6,135.4 L436.2,137.2 L437.9,137.6 L439.5,138.4 L441.1,140.2 L442.8,140.1 L444.4,142.3 L446.0,142.8 L447.7,145.1 L449.3,143.6 L450.9,145.9 L452.6,145.9 L454.2,146.9 L455.8,148.0 L457.5,149.0 L459.1,150.4 L460.7,151.1 L462.4,151.7 L464.0,151.6 L465.6,153.8 L467.3,153.7 L468.9,153.7 L470.5,155.7 L472.2,156.5 L473.8,156.0 L475.4,157.6 L477.1,158.9 L478.7,158.1 L480.3,159.6 L482.0,159.6 L483.6,161.0 L485.2,161.5 L486.9,161.5 L488.5,162.6 L490.1,162.1 L491.8,164.8 L493.4,164.3 L495.0,165.0 L496.7,165.0 L498.3,165.4 L499.9,166.2 L501.6,166.1 L503.2,167.4 L504.8,168.4 L506.5,168.7 L508.1,166.8 L509.7,168.1 L511.4,169.5 L513.0,169.5 L514.6,170.2 L516.3,169.2 L517.9,170.5 L519.5,170.7 L521.2,170.9 L522.8,171.1 L524.4,172.0 L526.1,170.7 L527.7,172.7 L529.3,172.3 L531.0,171.6 L532.6,173.4 L534.2,172.7 L535.9,172.5 L537.5,174.1 L539.1,172.9 L540.8,173.6 L542.4,174.4 L544.0,174.1 L545.7,174.6 L547.3,173.9 L548.9,174.1 L550.6,174.7 L552.2,175.2 L553.8,174.5 L555.5,175.0 L557.1,175.7 L558.7,176.5 L560.4,175.5 L562.0,174.7 L562.0,192 Z" fill="url(#fill)"/>
+      <polyline class="line" points="367.6,91.9 369.3,92.1 370.9,92.1 372.5,93.0 374.2,94.9 375.8,94.7 377.4,96.0 379.1,96.9 380.7,97.7 382.3,98.6 384.0,100.3 385.6,100.8 387.2,102.3 388.9,102.7 390.5,104.0 392.1,105.4 393.8,106.0 395.4,107.4 397.0,108.8 398.7,110.7 400.3,111.8 401.9,113.8 403.6,114.5 405.2,115.3 406.8,117.5 408.5,118.3 410.1,119.5 411.7,121.4 413.4,122.4 415.0,122.4 416.6,124.9 418.3,125.0 419.9,126.5 421.5,127.8 423.2,129.7 424.8,128.4 426.4,131.3 428.1,131.1 429.7,132.7 431.3,133.3 433.0,135.5 434.6,135.4 436.2,137.2 437.9,137.6 439.5,138.4 441.1,140.2 442.8,140.1 444.4,142.3 446.0,142.8 447.7,145.1 449.3,143.6 450.9,145.9 452.6,145.9 454.2,146.9 455.8,148.0 457.5,149.0 459.1,150.4 460.7,151.1 462.4,151.7 464.0,151.6 465.6,153.8 467.3,153.7 468.9,153.7 470.5,155.7 472.2,156.5 473.8,156.0 475.4,157.6 477.1,158.9 478.7,158.1 480.3,159.6 482.0,159.6 483.6,161.0 485.2,161.5 486.9,161.5 488.5,162.6 490.1,162.1 491.8,164.8 493.4,164.3 495.0,165.0 496.7,165.0 498.3,165.4 499.9,166.2 501.6,166.1 503.2,167.4 504.8,168.4 506.5,168.7 508.1,166.8 509.7,168.1 511.4,169.5 513.0,169.5 514.6,170.2 516.3,169.2 517.9,170.5 519.5,170.7 521.2,170.9 522.8,171.1 524.4,172.0 526.1,170.7 527.7,172.7 529.3,172.3 531.0,171.6 532.6,173.4 534.2,172.7 535.9,172.5 537.5,174.1 539.1,172.9 540.8,173.6 542.4,174.4 544.0,174.1 545.7,174.6 547.3,173.9 548.9,174.1 550.6,174.7 552.2,175.2 553.8,174.5 555.5,175.0 557.1,175.7 558.7,176.5 560.4,175.5 562.0,174.7" fill="none" stroke="#3B4FA8" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+      <g class="end"><line x1="464.0" y1="145.6" x2="464.0" y2="131.6" stroke="#3B4FA8" stroke-opacity=".35" stroke-dasharray="2 2"/><rect x="460.0" y="147.6" width="8" height="8" transform="rotate(45 464.0 151.6)" fill="#FFFFFF" stroke="#3B4FA8" stroke-width="1.6"/><text x="464.0" y="127.6" class="mono acc" font-size="9" text-anchor="middle">ckpt</text></g><g class="end"><line x1="562.0" y1="168.7" x2="562.0" y2="154.7" stroke="#3B4FA8" stroke-opacity=".35" stroke-dasharray="2 2"/><rect x="558.0" y="170.7" width="8" height="8" transform="rotate(45 562.0 174.7)" fill="#FFFFFF" stroke="#3B4FA8" stroke-width="1.6"/><text x="548.0" y="150.7" class="mono acc" font-size="9" text-anchor="middle">ckpt</text></g>
+      <text x="562" y="207" class="mono muted" font-size="9" text-anchor="end" dx="0"> </text>
+      <line x1="326" y1="222" x2="578" y2="222" stroke="#EDEDE8"/>
+      <text x="342" y="246" class="sans ink" font-size="15" font-weight="700">85</text><text x="342" y="262" class="sans muted" font-size="10.5">tests passing</text><text x="422" y="246" class="sans ink" font-size="15" font-weight="700">Δ 0</text><text x="422" y="262" class="sans muted" font-size="10.5">resume diff</text><text x="502" y="246" class="sans ink" font-size="15" font-weight="700">24</text><text x="502" y="262" class="sans muted" font-size="10.5">seed samples</text>
     </g></g>
   </g>
   <rect x=".5" y=".5" width="599" height="299" rx="16" fill="none" stroke="#E3E3DE"/>
