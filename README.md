@@ -16,7 +16,7 @@
 
 ---
 
-### ✳ A little about me
+### ✳ A little about me 
 
 I taught myself to code, and honestly, I'm still learning every day.
 
