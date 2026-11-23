@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="SI-Agent — My own AI assistant, in Bangla and English. Visit agent.sifat.cloud">
+  <style>
+    .sans { font-family: Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; }
+    .fade { animation: fade .8s ease-out both; }
+    .d1 { animation-delay: .1s } .d2 { animation-delay: .25s } .d3 { animation-delay: .4s } .d4 { animation-delay: .55s }
+    .pa { animation: up 1s .2s cubic-bezier(.2,.7,.2,1) both; }
+    .fa { animation: bob 6s 1.2s ease-in-out infinite; }
+    .live { animation: pulse 2.4s ease-in-out infinite; }
+    .b1 { animation: fade .6s 1.0s ease-out both; } .b2 { animation: fade .6s 1.6s ease-out both; } .b3 { animation: fade .6s 2.2s ease-out both; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    @keyframes fade { from { opacity: 0; transform: translateY(6px) } to { opacity: 1; transform: none } }
+    @keyframes up { from { opacity: 0; transform: translateY(16px) } to { opacity: 1; transform: none } }
+    @keyframes bob { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-5px) } }
+    @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .3 } }
+    .ink { fill: #1F2233; } .muted { fill: #686C7E; }
+  </style>
+  <defs>
+    <clipPath id="card"><rect width="600" height="300" rx="16"/></clipPath>
+    <clipPath id="win"><rect x="320" y="58" width="258" height="161" rx="0"/></clipPath>
+    <radialGradient id="glow" cx="80%" cy="40%" r="60%"><stop offset="0" stop-color="#C34424" stop-opacity=".12"/><stop offset="1" stop-color="#F4F4F1" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#1F2233" stroke-opacity=".045"/></pattern>
+    <filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#1F2233" flood-opacity=".14"/></filter>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="600" height="300" fill="#F4F4F1"/><rect width="600" height="300" fill="url(#grid)"/><rect width="600" height="300" fill="url(#glow)"/>
+    <g class="fade d1">
+      <rect x="32" y="28" width="38" height="38" rx="9" fill="#C34424"/>
+      <text x="51" y="53" class="sans" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle">SI</text>
+      <text x="80" y="56" class="sans ink" font-size="24" font-weight="700" letter-spacing="-.4">SI-Agent</text>
+    </g>
+    <g class="fade d2">
+      <rect x="34" y="80" width="173" height="24" rx="12" fill="#C34424" fill-opacity=".12"/>
+      <circle class="live" cx="47" cy="92" r="4" fill="#C34424"/>
+      <text x="57" y="96.5" class="mono" font-size="12.5" font-weight="600" fill="#C34424" letter-spacing=".6">RUNS ON MY LAPTOP</text>
+    </g>
+    <text x="32" y="146" class="sans ink fade d2" font-size="31" font-weight="600" letter-spacing="-1">My own AI</text>
+    <text x="32" y="182" class="sans ink fade d3" font-size="31" font-weight="600" letter-spacing="-1">assistant, in</text>
+    <text x="32" y="218" fill="#C34424" class="sans fade d3" font-size="31" font-weight="600" letter-spacing="-1">Bangla &amp; English.</text>
+    <g class="fade d4">
+      <text x="34" y="252" class="sans muted" font-size="13">Local models · My own hardware</text>
+      <text x="34" y="274" class="mono" font-size="13.5" font-weight="600" fill="#C34424">agent.sifat.cloud ↗</text>
+    </g>
+    <g class="pa"><g class="fa" filter="url(#sh)">
+      <rect x="320" y="30" width="258" height="230" rx="14" fill="#FFFFFF" stroke="#E3E3DE"/>
+      <text x="336" y="56" class="sans ink" font-size="14.5" font-weight="700">SI-Agent</text>
+      <circle class="live" cx="545" cy="51" r="4" fill="#2F8A52"/><text x="537" y="55.5" class="mono muted" font-size="11" text-anchor="end">online</text>
+      <line x1="320" y1="68" x2="578" y2="68" stroke="#EDEDE8"/>
+      <g class="b1"><rect x="380" y="82" width="182" height="32" rx="12" fill="#C34424"/><text x="471" y="102.5" class="sans" font-size="12.5" fill="#FFFFFF" text-anchor="middle">Plan my day in Bangla, please</text></g>
+      <g class="b2"><rect x="336" y="124" width="200" height="50" rx="12" fill="#F1F1EC"/><text x="350" y="145" class="sans ink" font-size="12.5">Sure! Here is today's plan:</text><text x="350" y="164" class="sans muted" font-size="12">1. Reply to emails  2. Ship the fix</text></g>
+      <g class="b3"><rect x="336" y="184" width="120" height="26" rx="12" fill="#F1F1EC"/><circle cx="356" cy="197" r="3" fill="#686C7E" class="live"/><circle cx="368" cy="197" r="3" fill="#686C7E" class="live"/><circle cx="380" cy="197" r="3" fill="#686C7E" class="live"/></g>
+      <rect x="336" y="222" width="226" height="26" rx="13" fill="#FFFFFF" stroke="#E3E3DE"/><text x="350" y="239.5" class="sans muted" font-size="12">Ask anything…</text>
+      <circle cx="549" cy="235" r="9" fill="#C34424"/><path d="M545 235h8M549 231l4 4-4 4" stroke="#FFFFFF" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    </g></g>
+  </g>
+  <rect x=".5" y=".5" width="599" height="299" rx="16" fill="none" stroke="#E3E3DE"/>
+</svg>
