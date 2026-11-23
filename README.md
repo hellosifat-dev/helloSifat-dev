@@ -10,7 +10,6 @@
 
 <p align="center">
   <a href="https://sifat.email"><img src="https://img.shields.io/badge/Portfolio-sifat.email-252621?style=flat-square&labelColor=F6F4EE" alt="Portfolio"/></a>
-  <a href="https://sifat.codes"><img src="https://img.shields.io/badge/Code_side-sifat.codes-3B4FA8?style=flat-square&labelColor=F6F4EE" alt="sifat.codes"/></a>
   <a href="mailto:hello@sifat.email"><img src="https://img.shields.io/badge/Say_hi-hello%40sifat.email-C34424?style=flat-square&labelColor=F6F4EE" alt="Email"/></a>
   <img src="https://img.shields.io/badge/From-Bangladesh-66675F?style=flat-square&labelColor=F6F4EE" alt="Bangladesh"/>
 </p>
@@ -29,12 +28,12 @@ Most of my code is private for now, but [BOS](https://github.com/hellosifat-dev/
 
 <p>
   <a href="https://www.syncaura.site/"><img src="./assets/syncaura/card.svg" alt="SyncAura — Chat, work and discover in one app. Visit syncaura.site" width="49%"/></a>
-  <a href="https://sifat.cloud/"><img src="./assets/sifatcloud/card.svg" alt="Sifat.cloud — A home for everything you build. Visit sifat.cloud" width="49%"/></a>
-  <a href="https://cognova.sifat.codes/"><img src="./assets/cognova/card.svg" alt="CogNova 3.0 — Building a language model from scratch. Visit cognova.sifat.codes" width="49%"/></a>
-  <a href="https://mail.sifat.codes/"><img src="./assets/cognovamail/card.svg" alt="Cognova Mail — Your own email, on your own server. Visit mail.sifat.codes" width="49%"/></a>
-  <a href="https://framenest.sifat.codes/"><img src="./assets/framenest/card.svg" alt="FrameNest — A home for creators in Bangladesh. Visit framenest.sifat.codes" width="49%"/></a>
-  <a href="https://bos.sifat.codes/"><img src="./assets/bos/card.svg" alt="BOS — Run every branch from one app. Visit bos.sifat.codes" width="49%"/></a>
-  <a href="https://agent.sifat.cloud/"><img src="./assets/siagent/card.svg" alt="SI-Agent — My own AI assistant, in Bangla and English. Visit agent.sifat.cloud" width="49%"/></a>
+  <a href="https://about.sifat.cloud/en/"><img src="./assets/sifatcloud/card.svg" alt="Sifat.cloud — Your own cloud, no server skills needed. Visit about.sifat.cloud" width="49%"/></a>
+  <a href="https://cognova.sifat.codes/"><img src="./assets/cognova/card.svg" alt="CogNova 3.0 — A Bangla-first language model, built from scratch. Visit cognova.sifat.codes" width="49%"/></a>
+  <a href="https://mail.sifat.codes/"><img src="./assets/cognovamail/card.svg" alt="Cognova Mail — Your email, on your own server. Visit mail.sifat.codes" width="49%"/></a>
+  <a href="https://framenest.sifat.codes/"><img src="./assets/framenest/card.svg" alt="FrameNest — Create. Connect. Earn in Bangladesh. Visit framenest.sifat.codes" width="49%"/></a>
+  <a href="https://bos.sifat.codes/"><img src="./assets/bos/card.svg" alt="BOS — Run the whole business from one screen. Visit bos.sifat.codes" width="49%"/></a>
+  <a href="https://agent.sifat.codes/"><img src="./assets/siagent/card.svg" alt="SI-Agent — My own AI assistant, in Bangla and English. Visit agent.sifat.codes" width="49%"/></a>
 </p>
 
 ### ✳ Where to find them
@@ -42,15 +41,15 @@ Most of my code is private for now, but [BOS](https://github.com/hellosifat-dev/
 <table>
   <tr><th align="left">Project</th><th align="left">What it is</th><th align="left">Website</th><th align="left">Site source</th></tr>
   <tr><td><b>SyncAura</b></td><td>Chat, work and discover in one app</td><td><a href="https://www.syncaura.site/">syncaura.site</a></td><td><sub>private</sub></td></tr>
-  <tr><td><b>Sifat.cloud</b></td><td>A home for everything you build, on your own servers</td><td><a href="https://sifat.cloud/">sifat.cloud</a> · <a href="https://about.sifat.cloud/">about</a></td><td><sub>private</sub></td></tr>
+  <tr><td><b>Sifat.cloud</b></td><td>A home for everything you build, on your own servers</td><td><a href="https://about.sifat.cloud/en/">about.sifat.cloud</a> · <a href="https://sifat.cloud/">panel</a></td><td><sub>private</sub></td></tr>
   <tr><td><b>CogNova 3.0</b></td><td>A language model I'm building from scratch</td><td><a href="https://cognova.sifat.codes/">cognova.sifat.codes</a></td><td><a href="https://github.com/hellosifat-dev/cognova-site">cognova-site</a></td></tr>
   <tr><td><b>Cognova Mail</b></td><td>Self-hosted email for people, teams and developers</td><td><a href="https://mail.sifat.codes/">mail.sifat.codes</a> · <a href="https://mail-demo.sifat.codes/">live demo</a></td><td><a href="https://github.com/hellosifat-dev/cognova-mail-site">cognova-mail-site</a></td></tr>
   <tr><td><b>FrameNest</b></td><td>Video and creator platform for Bangladesh</td><td><a href="https://framenest.sifat.codes/">framenest.sifat.codes</a></td><td><a href="https://github.com/hellosifat-dev/framenest-site">framenest-site</a></td></tr>
   <tr><td><b>BOS</b></td><td>Business OS: POS, inventory, HR and accounting</td><td><a href="https://bos.sifat.codes/">bos.sifat.codes</a></td><td><a href="https://github.com/hellosifat-dev/bos-site">bos-site</a> · <a href="https://github.com/hellosifat-dev/Bos">app</a></td></tr>
-  <tr><td><b>SI-Agent</b></td><td>My AI assistant, running on my own laptop</td><td><a href="https://agent.sifat.cloud/">agent.sifat.cloud</a></td><td><sub>private</sub></td></tr>
+  <tr><td><b>SI-Agent</b></td><td>My AI assistant, running on my own laptop</td><td><a href="https://agent.sifat.codes/">agent.sifat.codes</a></td><td><sub>private</sub></td></tr>
 </table>
 
-<p><sub>SI-Agent runs on my own laptop, so it only answers while my laptop is on. Want to see more? My portfolio lives on <a href="https://sifat.email">sifat.email</a>, and the developer version on <a href="https://sifat.codes">sifat.codes</a>.</sub></p>
+<p><sub>SI-Agent runs on my own laptop, so it only answers while my laptop is on. Want to see more? My portfolio lives on <a href="https://sifat.email">sifat.email</a>.</sub></p>
 
 ### ✳ Tools I use
 
