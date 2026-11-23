@@ -10,6 +10,7 @@
 
 <p align="center">
   <a href="https://sifat.email"><img src="https://img.shields.io/badge/Portfolio-sifat.email-252621?style=flat-square&labelColor=F6F4EE" alt="Portfolio"/></a>
+  <a href="https://sifat.codes"><img src="https://img.shields.io/badge/Code_side-sifat.codes-3B4FA8?style=flat-square&labelColor=F6F4EE" alt="sifat.codes"/></a>
   <a href="mailto:hello@sifat.email"><img src="https://img.shields.io/badge/Say_hi-hello%40sifat.email-C34424?style=flat-square&labelColor=F6F4EE" alt="Email"/></a>
   <img src="https://img.shields.io/badge/From-Bangladesh-66675F?style=flat-square&labelColor=F6F4EE" alt="Bangladesh"/>
 </p>
@@ -49,7 +50,7 @@ Most of my code is private for now, but [BOS](https://github.com/hellosifat-dev/
   <tr><td><b>SI-Agent</b></td><td>My AI assistant, running on my own server</td><td><a href="https://agent.sifat.codes/">agent.sifat.codes</a></td><td><sub>private</sub></td></tr>
 </table>
 
-<p><sub>SI-Agent runs on my own server, so it only answers while that server is online. Want to see more? My portfolio lives on <a href="https://sifat.email">sifat.email</a>.</sub></p>
+<p><sub>SI-Agent runs on my own server, so it only answers while that server is online. Want to see more? My portfolio lives on <a href="https://sifat.email">sifat.email</a>, and the developer version on <a href="https://sifat.codes">sifat.codes</a>.</sub></p>
 
 ### ✳ Tools I use
 
