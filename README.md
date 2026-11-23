@@ -46,10 +46,10 @@ Most of my code is private for now, but [BOS](https://github.com/hellosifat-dev/
   <tr><td><b>Cognova Mail</b></td><td>Self-hosted email for people, teams and developers</td><td><a href="https://mail.sifat.codes/">mail.sifat.codes</a> · <a href="https://mail-demo.sifat.codes/">live demo</a></td><td><a href="https://github.com/hellosifat-dev/cognova-mail-site">cognova-mail-site</a></td></tr>
   <tr><td><b>FrameNest</b></td><td>Video and creator platform for Bangladesh</td><td><a href="https://framenest.sifat.codes/">framenest.sifat.codes</a></td><td><a href="https://github.com/hellosifat-dev/framenest-site">framenest-site</a></td></tr>
   <tr><td><b>BOS</b></td><td>Business OS: POS, inventory, HR and accounting</td><td><a href="https://bos.sifat.codes/">bos.sifat.codes</a></td><td><a href="https://github.com/hellosifat-dev/bos-site">bos-site</a> · <a href="https://github.com/hellosifat-dev/Bos">app</a></td></tr>
-  <tr><td><b>SI-Agent</b></td><td>My AI assistant, running on my own laptop</td><td><a href="https://agent.sifat.codes/">agent.sifat.codes</a></td><td><sub>private</sub></td></tr>
+  <tr><td><b>SI-Agent</b></td><td>My AI assistant, running on my own server</td><td><a href="https://agent.sifat.codes/">agent.sifat.codes</a></td><td><sub>private</sub></td></tr>
 </table>
 
-<p><sub>SI-Agent runs on my own laptop, so it only answers while my laptop is on. Want to see more? My portfolio lives on <a href="https://sifat.email">sifat.email</a>.</sub></p>
+<p><sub>SI-Agent runs on my own server, so it only answers while that server is online. Want to see more? My portfolio lives on <a href="https://sifat.email">sifat.email</a>.</sub></p>
 
 ### ✳ Tools I use
 
